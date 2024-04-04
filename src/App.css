@@ -79,3 +79,11 @@
 .search-button:active {
 	color: #fbbc04;
 }
+
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
