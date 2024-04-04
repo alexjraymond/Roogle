@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# Roogle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Roogle is a web application designed to enhance your Google search experience by automatically appending "reddit" to your search queries. This approach leverages the collective knowledge and discussions found on Reddit, often leading to more insightful, community-driven information.
 
-Currently, two official plugins are available:
+Built with TypeScript and React, Roogle offers a seamless and responsive interface for users who prefer to filter their search through the lens of Reddit's vast user-generated content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Enhanced Search:** Automatically adds "reddit" to your Google searches.
+- **User-Friendly Interface:** Clean and simple UI built with React.
+- **Responsive Design:** Optimized for desktop and mobile devices.
