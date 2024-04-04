@@ -1,6 +1,6 @@
 import './App.css'
 import roogleLogo from './img/ROOGLE_LOGO_FINAL.png'
-import { GoSearch } from "react-icons/go";
+import { PiRedditLogoLight } from "react-icons/pi";
 
 function App() {
 
@@ -35,8 +35,13 @@ function App() {
 
       <input type='search' id='searchBar'/>
       <label htmlFor="searchBar" className="search-button" onClick={handleSearchIconClick}>
-          <GoSearch />
+          <PiRedditLogoLight />
         </label>
+
+      </div>
+      <div className='button-container'>
+      <button className='btn' onClick={handleSearchIconClick}>Search</button>  
+      <button className='btn' onClick={handleSearchIconClick}>I'm Feeling Lucky</button>  
       </div>
       </form>
 </>
