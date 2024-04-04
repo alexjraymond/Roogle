@@ -17,6 +17,12 @@ function App() {
     }
   };
 
+  const handleSearchIconClick = () => {
+    const form = document.querySelector('form'); // Ensure this selector targets your form correctly
+    if (form) {
+      form.requestSubmit(); // This method submits the form programmatically
+    }
+  };
 
   return (
     <>
@@ -28,7 +34,7 @@ function App() {
       <div className='search-container'>
 
       <input type='search' id='searchBar'/>
-      <label htmlFor="searchBar" className="search-button">
+      <label htmlFor="searchBar" className="search-button" onClick={handleSearchIconClick}>
           <GoSearch />
         </label>
       </div>
