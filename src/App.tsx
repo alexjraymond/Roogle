@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import roogleLogo from './img/ROOGLE_LOGO_FINAL.png'
+import { GoSearch } from "react-icons/go";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,20 +12,15 @@ function App() {
         < img src={roogleLogo} />
 
       </div>
-      <input type='search' id='searchBar' />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className='search-container'>
+      <input type='search' id='searchBar'/>
+      <label htmlFor="searchBar" className="search-button" onClick={() => setCount((count) => count + 1)}>
+          <GoSearch />
+        </label>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-
-        here we go
-      </p>
+      <div className="card">
+          search is {count}
+      </div>
 </>
   )
 }
