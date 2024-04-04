@@ -40,8 +40,8 @@ function App() {
 
       </div>
       <div className='button-container'>
-      <button className='btn' onClick={handleSearchIconClick}>Search</button>  
-      <button className='btn' onClick={handleSearchIconClick}>I'm Feeling Lucky</button>  
+      {/* <button className='btn' onClick={handleSearchIconClick}>Search</button>  
+      <button className='btn' onClick={handleSearchIconClick}>I'm Feeling Lucky</button>   */}
       </div>
       </form>
 </>
