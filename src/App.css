@@ -31,7 +31,7 @@
 .search-button {
 	position: absolute;
 	top: 55%;
-	right: 16px; /* Adjust this value to position the button properly */
+	right: 16px;
 	transform: translateY(-50%);
 	cursor: pointer;
 }
@@ -65,7 +65,7 @@ input[type="search"]::-webkit-search-decoration {
 .btn {
 	background-color: #f8f9fa;
 	border: 1px solid #f8f9fa;
-	color: #5f6368; /* Adjusted for a bit more contrast */
+	color: #5f6368;
 	padding: 10px 24px;
 	margin: 0 4px;
 	font-size: 14px;
@@ -74,24 +74,24 @@ input[type="search"]::-webkit-search-decoration {
 	cursor: pointer;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 	transition: background-color 0.2s, box-shadow 0.2s, border-color 0.2s;
-	user-select: none; /* Prevent text selection */
+	user-select: none;
 	-webkit-user-select: none;
-	touch-action: manipulation; /* Optimize for touch */
+	touch-action: manipulation;
 }
 
 .btn:hover {
-  color: #ea4435; /* Slightly darker background */
+  color: #ea4435;
   border: 1px solid #c6c6c6;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); Enhanced shadow for raised effect */
 }
 
 .btn:focus {
-	outline: none; /* Remove default outline */
-	border: 1px solid #4d90fe; /* Blue border for focus indication */
-	box-shadow: 0 0 3px #4285f4; /* Glowing effect for focus */
+	outline: none;
+	border: 1px solid #4d90fe;
+	box-shadow: 0 0 3px #4285f4;
 }
 
 .btn:active {
-  color: #fbbc04; /* Even darker for the active state */
-  box-shadow: none; /* Remove shadow to mimic being pressed */
+  color: #fbbc04;
+  box-shadow: none;
 }
